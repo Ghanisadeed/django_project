@@ -1,19 +1,8 @@
-# Django Blog API Project
-
-
-
-##  Admin Credentials
-- **Superuser Login**: http://127.0.0.1:8000/admin
-  - Username: `admin`
-  - Password: `Root@123`
-  - Email: `admin@example.com`
-
-## 🛠️ Setup Instructions
-
-### 1. Prerequisites
-- Python 3.8+
-- MySQL Server
-
-### 2. Database Configuration
-sql
-CREATE DATABASE blog_db;
+```bash
+git clone https://github.com/yourusername/django-blog-api.git
+cd django-blog-api
+python -m venv venv
+venv\Scripts\activate  # Windows
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
